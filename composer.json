@@ -1,0 +1,24 @@
+{
+    "name": "univio/logs",
+    "description": "The Univio Logs module enables the redirection of all log outputs to `/dev/stdout`, replacing traditional file-based logging.",
+    "type": "magento2-module",
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": "*",
+        "monolog/monolog": "^2.0",
+        "php": ">=8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Univio\\Logs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Univio S.A.",
+            "homepage": "https://www.univio.com",
+            "role": "Developer"
+        }
+    ]
+}
